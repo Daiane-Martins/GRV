@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for consulta_no_banco in consulta_no_banco %}
+{{ consulta_no_banco.tipo  }} {{ consulta_no_banco.modelo  }} {{ consulta_no_banco.marca  }}<br>
+{% endfor %}
+</body>
+</html>
